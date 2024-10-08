@@ -2,7 +2,7 @@ import random
 import asyncio
 import re, time
 import math
-from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
+from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty, QueryIdInvalid
 from Script import script
 from datetime import datetime, timedelta
 from info import STICKERS_IDS, ADMINS, URL, MAX_BTN, BIN_CHANNEL, IS_STREAM, DELETE_TIME, FILMS_LINK, AUTH_CHANNEL, IS_VERIFY, VERIFY_EXPIRE, LOG_CHANNEL, SUPPORT_GROUP, SUPPORT_LINK, UPDATES_LINK, PICS, PROTECT_CONTENT, IMDB, AUTO_FILTER, SPELL_CHECK, IMDB_TEMPLATE, AUTO_DELETE, LANGUAGES, IS_FSUB, PAYMENT_QR, GROUP_FSUB, PM_SEARCH, UPI_ID
@@ -462,7 +462,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             user = query.from_user.id
         if int(user) != 0 and query.from_user.id != int(user):
             return await query.answer(f"Hello {query.from_user.first_name},\nThis Is Not For You!", show_alert=True)
-        await query.answer("Closed!")
+        
+        try:
+            await query.answer("Closed!")
+        except QueryIdInvalid:
+            print("Callback query is no longer valid.")
+
         await query.message.delete()
         try:
             await query.message.reply_to_message.delete()
