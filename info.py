@@ -60,7 +60,7 @@ else:
 IS_FSUB = is_enabled('IS_FSUB', True)
 
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002156162334') #support group id ex:  -1002936246860
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1001779982100') #support group id ex:  -1002936246860
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -76,7 +76,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/cinemaa_time')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+uw9bGEgcOzo1MDk1')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/rkmovieszip')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/cinemaa_time')
 TUTORIAL = environ.get("TUTORIAL", " ")
