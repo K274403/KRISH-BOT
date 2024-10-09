@@ -8,8 +8,8 @@ class script(object):
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: krish
-★ Username: @Looterekrish"""
+    MY_OWNER_TXT = """★ Name: KRISH
+★ Username: @Krish_rule"""
 #★ Update Channel : 
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
@@ -89,7 +89,11 @@ I can't find the <b>{}</b> in my database! 🥲
 🗣 Requested by: {message.from_user.mention}
 ©️ Powered by: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<i>{file_name}</i>
+    FILE_CAPTION = """/set_caption <a href="https://t.me/Rkmovieszip">{filename}</a> 
+
+<blockquote>✅ 𝘼𝙡𝙨𝙤 𝙟𝙤𝙞𝙣 #𝙍𝙠𝙢𝙤𝙫𝙞𝙚𝙯𝙞𝙥 – #𝙉𝙤𝟏 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙁𝙧𝙚𝙚 𝙈𝙤𝙫𝙞𝙚𝙨 𝘼𝙣𝙙 𝙒𝙚𝙗 𝙎𝙚𝙧𝙞𝙚𝙨 𝙀𝙣𝙩𝙚𝙧𝙩𝙖𝙞𝙣𝙢𝙚𝙣𝙩 𝘾𝙝𝙖𝙣𝙣𝙚𝙡. </blockquote>
+
+⏤‌‌𝗝⌡𝗼𝗶𝗻 𝗙𝗿𝗲𝗲 –「 @RKMOVIESZIP 」🔥
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
@@ -140,4 +144,4 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/Rishikesh-Sharma09/Auto-Filter-Bot>ʜᴇʀᴇ</a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @CoderRzps"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - @Krish_rule"""
